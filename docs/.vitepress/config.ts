@@ -8,7 +8,7 @@ import flexSearchIndexOptions from 'flexsearch'
 // 预览demo
 import { containerPreview, componentPreview } from '@vitepress-demo-preview/plugin'
 
-const base = '/'
+const base = ''
 
 var options = {
   ...flexSearchIndexOptions,
