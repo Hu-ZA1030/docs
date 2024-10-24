@@ -8,7 +8,7 @@ import flexSearchIndexOptions from 'flexsearch'
 // 预览demo
 import { containerPreview, componentPreview } from '@vitepress-demo-preview/plugin'
 
-const base = ''
+const base = '/docs/'
 
 var options = {
   ...flexSearchIndexOptions,
@@ -80,6 +80,6 @@ export default defineConfig({
       },
     },
 
-    plugins: [SearchPlugin(options)],
+    plugins: [SearchPlugin(options)] as any,
   },
 })
