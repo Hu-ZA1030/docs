@@ -27,7 +27,7 @@ export default defineConfig({
     // 打包后使用
     ['link', { rel: 'icon', href: `${base}favicon.ico` }],
     // 本地开发用
-    ['link', { rel: 'icon', href: '/favicon.ico' }], 
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   lastUpdated: true,
   cleanUrls: true,

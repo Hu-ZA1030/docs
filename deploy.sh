@@ -18,6 +18,6 @@ git commit -m 'deploy'
 
 
 # 发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Hu-ZA1030/docs.git master:gh-pages
+git push -f git@github.com:Hu-ZA1030/docs.git master:gh-pages1
 
 cd -
