@@ -16,7 +16,7 @@ var options = {
   buttonLabel: '搜索',
   placeholder: '请输入关键词',
 }
-console.log('nav', nav)
+
 export default defineConfig({
   outDir: '../dist',
 
