@@ -4,7 +4,7 @@ layout: home
 hero:
   name: 小苏学习
   text: 学习记录,打造知识库
-  tagline: 野心那么大，那么点墨水怎么够
+  tagline: 野心那么大，那么点墨水怎么够！ 努力学习
   image:
     src: /avatar.png
     alt: avatar logo
