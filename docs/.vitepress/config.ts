@@ -21,7 +21,7 @@ export default defineConfig({
   outDir: '../dist',
 
   base,
-  title: '小苏 blog',
+  title: '小苏 blog~~',
   description: '学习并分享各类前端的项目和知识',
   head: [
     // 打包后使用
