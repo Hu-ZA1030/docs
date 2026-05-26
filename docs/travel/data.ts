@@ -1,5 +1,18 @@
 import type { NavType } from './components/type'
 
+import ganIcon from './images/icon/ganIcon.png'
+import yueIcon from './images/icon/yueIcon.png'
+import xiangIcon from './images/icon/xiangIcon.png'
+import eIcon from './images/icon/eIcon.png'
+import chuangIcon from './images/icon/chuangIcon.png'
+import zheIcon from './images/icon/zheIcon.png'
+import minIcon from './images/icon/minIcon.png'
+import suIcon from './images/icon/suIcon.png'
+import nachang from './images/icon/nachang.png'
+import jingdezheng from './images/icon/jingdezheng.png'
+import pingxiang from './images/icon/pingxiang.png'
+import xiaomanyao from './images/icon/xiaomanyao.png'
+
 type NavData = {
   title: string
   icon: String
@@ -11,26 +24,26 @@ export const NAV_DATA: NavData[] = [
   // 常用工具
   {
     title: '江西',
-    icon: './images/icon/ganIcon.png',
+    icon: ganIcon,
     isShow: true,
     items: [
       {
         title: '南昌',
-        icon: './images/icon/nachang.png',
+        icon: nachang,
         desc: '物华天宝，人杰地灵，天下英雄城',
         link: `${base}/travel/江西/南昌`,
         isTrip: true,
       },
       {
         title: '景德镇',
-        icon: './images/icon/jingdezheng.png',
+        icon: jingdezheng,
         desc: '世界瓷都,天下景德',
         link: `${base}/travel/江西/景德镇`,
         isTrip: true,
       },
       {
         title: '萍乡',
-        icon: './images/icon/pingxiang.png',
+        icon: pingxiang,
         desc: '萍水乡逢,缘聚天下',
         link: ' ',
         isTrip: false,
@@ -95,12 +108,12 @@ export const NAV_DATA: NavData[] = [
   },
   {
     title: '广东',
-    icon: './images/icon/yueIcon.png',
+    icon: yueIcon,
     isShow: true,
     items: [
       {
         title: '广州',
-        icon: './images/icon/xiaomanyao.png',
+        icon: xiaomanyao,
         desc: '羊城风华，珠江璀璨，广州欢迎您',
         link:  `${base}/travel/广东/广州`,
         isTrip: true,
@@ -249,7 +262,7 @@ export const NAV_DATA: NavData[] = [
   },
   {
     title: '湖南',
-    icon: './images/icon/xiangIcon.png',
+    icon: xiangIcon,
     isShow: true,
     items: [
       {
@@ -263,7 +276,7 @@ export const NAV_DATA: NavData[] = [
   },
   {
     title: '湖北',
-    icon: './images/icon/eIcon.png',
+    icon: eIcon,
     isShow: true,
     items: [
       {
@@ -277,7 +290,7 @@ export const NAV_DATA: NavData[] = [
   },
   {
     title: '四川',
-    icon: './images/icon/chuangIcon.png',
+    icon: chuangIcon,
     isShow: true,
     items: [
       {
@@ -291,7 +304,7 @@ export const NAV_DATA: NavData[] = [
   },
   {
     title: '浙江',
-    icon: './images/icon/zheIcon.png',
+    icon: zheIcon,
     isShow: true,
     items: [
       {
@@ -305,7 +318,7 @@ export const NAV_DATA: NavData[] = [
   },
   {
     title: '福建',
-    icon: './images/icon/minIcon.png',
+    icon: minIcon,
     isShow: true,
     items: [
       {
@@ -319,7 +332,7 @@ export const NAV_DATA: NavData[] = [
   },
   {
     title: '江苏',
-    icon: './images/icon/suIcon.png',
+    icon: suIcon,
     isShow: true,
     items: [
       {
