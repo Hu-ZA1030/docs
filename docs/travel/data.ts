@@ -12,6 +12,7 @@ import nachang from './images/icon/nachang.png'
 import jingdezheng from './images/icon/jingdezheng.png'
 import pingxiang from './images/icon/pingxiang.png'
 import xiaomanyao from './images/icon/xiaomanyao.png'
+import xinyuIcon from './images/icon/xinyu.svg'
 
 type NavData = {
   title: string
@@ -57,10 +58,10 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: '新余',
-        icon: 'https://static.runoob.com/images/c-runoob-logo.ico',
+        icon: xinyuIcon,
         desc: '仙女下凡地，抱石故园人',
-        link: ' ',
-        isTrip: false,
+        link: `${base}/travel/江西/新余`,
+        isTrip: true,
       },
       {
         title: '鹰潭',

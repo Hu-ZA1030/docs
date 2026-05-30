@@ -6,6 +6,7 @@ module.exports = [
       { text: '南昌', link: '/travel/江西/南昌' },
       { text: '景德镇', link: '/travel/江西/景德镇' },
       { text: '上饶', link: '/travel/江西/上饶' },
+      { text: '新余', link: '/travel/江西/新余' },
     ]
   }
 ]
